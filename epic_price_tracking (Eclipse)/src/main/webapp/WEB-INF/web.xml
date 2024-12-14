@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>epic_price_tracking</display-name>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>CreateServlet</display-name>
+    <servlet-name>CreateServlet</servlet-name>
+    <servlet-class>user.web.servlet.CreateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateServlet</servlet-name>
+    <url-pattern>/CreateServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>UserServletRegister</display-name>
+    <servlet-name>UserServletRegister</servlet-name>
+    <servlet-class>user.web.servlet.UserServletRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletRegister</servlet-name>
+    <url-pattern>/UserServletRegister</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserServletLogin</display-name>
+    <servlet-name>UserServletLogin</servlet-name>
+    <servlet-class>user.web.servlet.UserServletLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletLogin</servlet-name>
+    <url-pattern>/UserServletLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>findAll</display-name>
+    <servlet-name>findAll</servlet-name>
+    <servlet-class>user.web.servlet.findAll</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findAll</servlet-name>
+    <url-pattern>/findAll</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>UpdateUserServlet</display-name>
+    <servlet-name>UpdateUserServlet</servlet-name>
+    <servlet-class>user.web.servlet.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateUserServlet</servlet-name>
+    <url-pattern>/UpdateUserServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>DeleteUserServlet</display-name>
+    <servlet-name>DeleteUserServlet</servlet-name>
+    <servlet-class>user.web.servlet.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteUserServlet</servlet-name>
+    <url-pattern>/DeleteUserServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+<servlet>
+    <description></description>
+    <display-name>findAllgames</display-name>
+    <servlet-name>findAllgames</servlet-name>
+    <servlet-class>game.web.servlet.findAll</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findAllgames</servlet-name>
+    <url-pattern>/findAllgames</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateGameServlet</display-name>
+    <servlet-name>UpdateGameServlet</servlet-name>
+    <servlet-class>game.web.servlet.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateGameServlet</servlet-name>
+    <url-pattern>/UpdateGameServlet</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <description></description>
+    <display-name>DeleteGameServlet</display-name>
+    <servlet-name>DeleteGameServlet</servlet-name>
+    <servlet-class>game.web.servlet.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteGameServlet</servlet-name>
+    <url-pattern>/DeleteGameServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>CreateServlet2</display-name>
+    <servlet-name>CreateServlet2</servlet-name>
+    <servlet-class>game.web.servlet.CreateServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateServlet2</servlet-name>
+    <url-pattern>/CreateServlet2</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>InitializeDB</display-name>
+    <servlet-name>InitializeDB</servlet-name>
+    <servlet-class>initializeDB.web.servlet.InitializeDBServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InitializeDB</servlet-name>
+    <url-pattern>/InitializeDB</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>CreatePublisher</display-name>
+    <servlet-name>CreatePublisher</servlet-name>
+    <servlet-class>publisher.web.servlet.CreateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreatePublisher</servlet-name>
+    <url-pattern>/CreatePublisher</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>DeletePublisher</display-name>
+    <servlet-name>DeletePublisher</servlet-name>
+    <servlet-class>publisher.web.servlet.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeletePublisher</servlet-name>
+    <url-pattern>/DeletePublisher</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description></description>
+    <display-name>findAllPublisher</display-name>
+    <servlet-name>findAllPublisher</servlet-name>
+    <servlet-class>publisher.web.servlet.findAll</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findAllPublisher</servlet-name>
+    <url-pattern>/findAllPublisher</url-pattern>
+  </servlet-mapping> 
+  
+   <servlet>
+    <description></description>
+    <display-name>updatePublisher</display-name>
+    <servlet-name>updatePublisher</servlet-name>
+    <servlet-class>publisher.web.servlet.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updatePublisher</servlet-name>
+    <url-pattern>/updatePublisher</url-pattern>
+  </servlet-mapping> 
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>CreateGenre</display-name>
+    <servlet-name>CreateGenre</servlet-name>
+    <servlet-class>genre.web.servlet.CreateGenreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateGenre</servlet-name>
+    <url-pattern>/CreateGenre</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>DeleteGenre</display-name>
+    <servlet-name>DeleteGenre</servlet-name>
+    <servlet-class>genre.web.servlet.DeleteGenreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteGenre</servlet-name>
+    <url-pattern>/DeleteGenre</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description></description>
+    <display-name>findAllGenre</display-name>
+    <servlet-name>findAllGenre</servlet-name>
+    <servlet-class>genre.web.servlet.findAll</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findAllGenre</servlet-name>
+    <url-pattern>/findAllGenre</url-pattern>
+  </servlet-mapping> 
+  
+   <servlet>
+    <description></description>
+    <display-name>updateGenre</display-name>
+    <servlet-name>updateGenre</servlet-name>
+    <servlet-class>genre.web.servlet.UpdateGenreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updateGenre</servlet-name>
+    <url-pattern>/updateGenre</url-pattern>
+  </servlet-mapping>  
+  
+   <servlet>
+    <description></description>
+    <display-name>addUserGame</display-name>
+    <servlet-name>addUserGame</servlet-name>
+    <servlet-class>tracking.servlet.UserGameTrackingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addUserGame</servlet-name>
+    <url-pattern>/UserGame</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+    <description></description>
+    <display-name>removeUserGame</display-name>
+    <servlet-name>removeUserGame</servlet-name>
+    <servlet-class>tracking.servlet.RemoveUserGameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>removeUserGame</servlet-name>
+    <url-pattern>/removeUserGame</url-pattern>
+  </servlet-mapping> 
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>findQueriedGames</display-name>
+    <servlet-name>findQueriedGames</servlet-name>
+    <servlet-class>game.web.servlet.QueriedGameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findQueriedGames</servlet-name>
+    <url-pattern>/queryGames</url-pattern>
+  </servlet-mapping> 
+  
+  
+   <servlet>
+    <description></description>
+    <display-name>FindGenrePublisher</display-name>
+    <servlet-name>FindGenrePublisher</servlet-name>
+    <servlet-class>game.web.servlet.FindGenrePublisherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FindGenrePublisher</servlet-name>
+    <url-pattern>/findGenrePublisher</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+    <description></description>
+    <display-name>ReadPriceDropsUser</display-name>
+    <servlet-name>ReadPriceDropsUser</servlet-name>
+    <servlet-class>game.web.servlet.ReadPriceDropsUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReadPriceDropsUser</servlet-name>
+    <url-pattern>/readPriceDropsUser</url-pattern>
+  </servlet-mapping> 
+  
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

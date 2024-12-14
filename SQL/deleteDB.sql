@@ -1,0 +1,1 @@
+DROP DATABASE epic_price_tracking;
